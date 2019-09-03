@@ -1,0 +1,17 @@
+batch_size: 32
+epoches: 50
+latent_dim: 100
+lr: 0.001
+epoch_per_test: 10
+optim: "Adam"
+dropout: 0.5
+keep_prob: 0.5
+currupt_rate: 0.5
+sample_size: 10
+no_cuda: false
+seed: 1.0
+task_dir: "FB15K237"
+sample_size: 10
+pretrain: true
+perfix: "pretrain_fb15k237_100"
+model: None
